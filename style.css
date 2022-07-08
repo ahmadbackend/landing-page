@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+#nav
+{
+  position:absolute;
+  left:0;
+  top:0;
+  border:solid;
+  width:30%;
+  background-color:#b3c400;
+  height:100%;
+  display : inline-block; 
+  overflow: hidden;
+}
+#nav > header{
+  text-align:center;
+}
+#right{
+  position:absolute;
+  left:30%;
+  top:0;
+  float:right;
+  width:70%;
+  height:100%;
+  border:solid;
+  display:inline;
+  margin:-20px,0,0;
+  overflow: scroll;
+  text-align: justify;
+  padding-left:10px;
+}
